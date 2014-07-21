@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Prompt:</b>
+  <%= @event_question.prompt %>
+</p>
+
+<p>
+  <b>Event:</b>
+  <%= @event_question.event_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_event_question_path(@event_question) %> |
+<%= link_to 'Back', event_questions_path %>
